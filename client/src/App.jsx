@@ -9,10 +9,10 @@ function App() {
     const [promptQuestion, setPromptQuestion] = useState('');
     const [conversation, setConversation] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
-    const [showModal, setShowModal] = useState(true);
+    const [showModal, setShowModal] = useState(false);
 
     const [botSettings, setBotSettings] = useState({
-        persona: 0,
+        persona: 5,
         tokens: 500,
         temperature: 0.5,
         presencePenalty: 0,
